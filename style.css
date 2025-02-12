@@ -8,16 +8,35 @@ color: white;
 font-weight: bolder;
 
 }
-
+body {
+    font-family: Arial ;
+    margin: 0;
+    padding: 0;
+    background-color: #eeead8;
+    color: #241802;
+}
 .rest-name {
     text-align: center;
 }
 
 .el-1{
     display : inline ;
-    margin-right: 250px;
+    margin-right: 0 15px;
 }
 
 ul {
     padding: 0;
+}
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #b18708;
+    color: #101010;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
